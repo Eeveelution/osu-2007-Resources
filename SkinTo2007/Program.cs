@@ -19,7 +19,7 @@ namespace SkinTo2007
         }
         static void Main(string[] args)
         {
-            if(args.Length == 0)
+            if(args.Length < 3)
             {
                 Console.WriteLine("Usage: <Path to osu! Skin Folder> <Skin Name> <Invisible 300s (true/false)>");
             } else
